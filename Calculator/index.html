@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calsi.css">
+</head>
+<body>
+    <section>
+        <div>
+        <table id="table1">
+            <caption>Calculator</caption>
+            <tr id="r">
+                <td><input type="text" id="input"></td>                
+            </tr>
+        </table>
+        <table id="table2">
+            <tr id="r1">
+                <td id="d10" onclick="cl()">C</td>
+                <td id="d20" onclick="div()">/</td>
+                <td id="d30" onclick="mul()">*</td>
+                <td id="d40" onclick="del()"><</td>
+            </tr>
+            <tr id="r2">
+                <td id="d1" class="numbers" onclick="a7()">7</td>
+                <td id="d2" class="numbers" onclick="a8()">8</td>
+                <td id="d3" class="numbers" onclick="a9()">9</td>
+                <td id="d4" onclick="sub()">-</td>
+            </tr>
+            <tr id="r3">
+                <td id="d11" class="numbers" onclick="a4()">4</td>
+                <td id="d21" class="numbers" onclick="a5()">5</td>
+                <td id="d31" class="numbers" onclick="a6()">6</td>
+                <td id="d31" onclick="pl()">+</td>
+            </tr>
+            <tr id="r4">
+                <td id="d111" class="numbers" onclick="a1()">1</td>
+                <td id="d211" class="numbers" onclick="a2()">2</td>
+                <td id="d311" class="numbers" onclick="a3()">3</td>
+                <td id="d411" onclick="eq()" rowspan="2">=</td>
+            </tr>
+            <tr id="r5">
+                <td id="d1111" onclick="per()">%</td>
+                <td id="d2111" class="numbers" onclick="a0()">0</td>
+                <td id="d3111" onclick="dot()">.</td>
+            </tr>
+        </table>
+    </div>
+    </section>    
+</body>
+<script src="calculator.js">
+// <!-- <script>
+//     const numbers = document.querySelectorAll(".numbers")
+    
+//     const a0 = () => {
+//         document.getElementById('input').value += numbers[9].innerHTML
+//     }
+//     const a1 = () => {
+//         document.getElementById('input').value += numbers[6].innerHTML
+//     }      -->
+</script>
+</html>

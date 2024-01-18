@@ -1,0 +1,54 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+section{
+    background-image: linear-gradient( white, rgb(242, 88, 222));
+    height: 640px;
+}
+section div{
+    width: auto;
+    margin: 0px 450px;
+}
+table,tr,td,input{
+    border: 2px solid;
+}
+table{
+    background-image: linear-gradient(  rgb(170, 161, 161),white );
+}
+#table1{
+    width: 400px;
+    height: 100px;
+}
+#table2{
+    width: 400px;
+    height: 100px;
+}
+#table2 td{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+#table2 td:hover{
+    cursor: pointer;
+}
+#table2 td:active{
+    color: whitesmoke;
+    background-color: gray;
+}
+#table1 #input{
+    text-align: end;
+    font-size: 30px;
+    padding: 25px 10px;
+}
+#table1 td{
+    border: none;
+}
+caption{
+    font-size: 30px;
+    border: 2px solid black;
+    color: whitesmoke;
+    background-color: gray;
+    margin-top: 20px;
+}
