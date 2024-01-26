@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock, Paper and Scissors</title>
+        <link rel="icon" href="logo.png">
+        <link rel="stylesheet" href="game.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script defer src="game.js"></script>
+    </head>
+    <body>
+        <section>
+            <h1 id="header">ROCK, PAPER, SCISSORS - Game</h1>
+            <h2 id="letsPlay">Let's Play!</h2>
+            <div id="area">
+                <div id="player">
+                    <div id="user">
+                        <h1 id="user1">Player</h1>
+                        <i class="fa fa-edit" style="font-size:20px" id="edit" onclick="edit()"></i>
+                    </div>
+                    <div id="name">
+                        <input id="text" type="text" placeholder="Nick Name">
+                        <button id="submit1" onclick="submit()">Submit</button>
+                    </div>
+                    <img id="img1" src="a1.png" alt>
+                </div>
+                <div id="computer">
+                    <h1 id="h1">Vs</h1>
+                    <h1 id="h2">Computer</h1>
+                    <div id="score">
+                        <h4 id="p">0</h4>
+                        <h4 id="c">0</h4>
+                    </div>
+                    <img id="img2" src="b1.png" alt>                    
+                </div>
+            </div>
+            <div id="submit">
+                <button id="btn1" class="btn" onclick="rock()">ROCK</button>
+                <button id="btn2" class="btn" onclick="paper()">PAPER</button>
+                <button id="btn3" class="btn" onclick="scissor()">SCISSOR</button>
+            </div>
+        </section>
+    </body>
+</html>

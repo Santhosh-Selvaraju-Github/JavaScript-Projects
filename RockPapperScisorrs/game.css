@@ -1,0 +1,149 @@
+body{
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(194, 242, 194);
+}
+#header{
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 0px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+#letsPlay{
+    text-align: center;
+    font-size: 30px;
+    font-weight:800;
+    margin: 15px 0;
+}
+#area{
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    height: 400px;
+    text-align: center;
+    margin: 0px 150px;
+    background-color: white;
+    border-radius: 50px;
+    position: relative;
+}
+#player{
+    width: 50%;
+}
+#player #user{
+    display: flex;
+    margin: 0 0px 0 130px;
+}
+#player i{
+    font-size: 30px;
+    letter-spacing: 0.3rem;
+    margin: 39px 100px 0 0;
+    color: green;
+}
+#player h1{
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0.3rem;
+    margin: 30px 10px 0 0;
+    color: green;
+}
+#player i:hover{
+    cursor: pointer;
+    color: rgb(59, 57, 57);
+}
+#player #name{
+    display: none;
+    margin: 30px 0 0 80px ;
+}
+#player #text, button{    
+    font-size: 20px;
+    padding: 5px 10px;
+}
+#computer #h2{
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0.3rem;
+    margin: 30px 0px 0 80px;
+    color: green;
+}
+#computer{
+    width: 50%;
+    position: relative;
+}
+#computer #h1{
+    font-size: 35px;
+    width: 35%;
+    font-weight: 800;
+    border-radius: 20px;
+    background-color: gold;
+    color: green;
+    border: 2px solid;
+    position: absolute;
+    left: -110px;
+    top: 115px;
+    padding: 20px 10px;
+    line-height: 3rem;
+    letter-spacing: 0.2rem;
+}
+#img2{
+    margin-top: 35px;
+    margin-left: 70px;
+}
+#img1{
+    margin: 40px 80px 0 0;
+    padding: 0;    
+}
+img{
+    width: 250px;
+    height: 250px;
+    background-color: green;
+}
+#submit{
+    text-align: center;
+    position: absolute;
+    top: 480px;
+    left: 470px;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 0px;
+    box-shadow: 0 5px grey;    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    color: rgb(59, 57, 57);
+}
+.btn:focus{
+    background-color: greenyellow;
+    color: red
+}
+.btn:active{
+    transform: translateY(6px);
+}
+#score{
+    display: flex;
+    position: absolute;
+    left: -45px;
+    top: 0px;
+}
+#score h4{
+    border: 2px solid;
+    padding: 10px;
+    border-radius:10px;
+    font-size: 20px;
+    color: green;
+}
